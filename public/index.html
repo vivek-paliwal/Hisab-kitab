@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Hisab-Kitab - Simplify Your Finances" />
+    <title>Hisab-Kitab: Simplify Your Finances</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              'light-primary': '#f8f9fa',
+              'light-secondary': '#ffffff',
+              'light-tertiary': '#e9ecef',
+              'light-text': '#212529',
+              'light-subtle': '#495057',
+              'brand-primary': '#0d1b2a',
+              'brand-secondary': '#1b263b',
+              'brand-tertiary': '#2a3a52',
+              'brand-text': '#ecf0f1',
+              'brand-subtle': '#a9b4c2',
+              'accent': '#ff9f1c',
+              'success': '#27ae60',
+              'error': '#c0392b',
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-light-primary text-light-text dark:bg-brand-primary dark:text-brand-text font-sans antialiased transition-colors duration-300">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
